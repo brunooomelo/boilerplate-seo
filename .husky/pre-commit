@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "checking lint ..."
+npx prettier --write "**/*.{tsx,ts,js,jsx}"
