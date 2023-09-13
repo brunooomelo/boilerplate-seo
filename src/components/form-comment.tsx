@@ -47,7 +47,7 @@ export const CommentForm = ({ session }: CommentFormProps) => {
       onSettled: () => {
         queryClient.invalidateQueries("comments");
       },
-    }
+    },
   );
 
   const onSubmit = async (data: FormValues) => {
