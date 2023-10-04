@@ -15,16 +15,7 @@ export default function App({
 }: AppProps) {
   return (
     <>
-      <Head>
-        <meta
-          name="ahrefs-site-verification"
-          content="0ff7ff9de03f88bcd24fe4511f725298dc7d90f3c915636975575d8b463daf90"
-        ></meta>
-        <meta
-          name="google-site-verification"
-          content="u5_Q-zBHGVK6bNT5-QHCHY48fxC-IoqAxYo-H2BLhJQ"
-        ></meta>
-      </Head>
+      <Head>{/* // META TAGS ABOVE */}</Head>
       <DefaultSeo {...SEO} />
       <main
         className={`max-w-3xl mx-auto ${font.className} p-6 flex flex-col gap-8`}
